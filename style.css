@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-image: url("./Images/sky.jpg");
+    color: #eedb00;
+    background-attachment: fixed; /*чтоб при прокручивании фон фиксирован*/
+}
+
+header{
+    background-color: rgba(60, 69, 67, .6);
+    border-radius: 15px 15px 0 0;
+    
+}
+
+nav > ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    position: fixed;
+    top: 5px;
+    left: 40px; 
+    
+}
+
+nav li{
+    /* display: inline; */
+    
+}
+
+h1{
+    text-align: center;
+
+}
